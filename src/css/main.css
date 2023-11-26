@@ -1,0 +1,99 @@
+  @font-face {
+    font-family: 'Jeongnimsaji';
+    src: local('._Jeongnimsaji-B'), url('../font/._Jeongnimsaji-B.ttf') format('ttf');
+  }
+  @font-face {
+    font-family: 'MaruBuri';
+    src: local('MaruBuri'), url('../font/MaruBuri_SemiBold.ttf') format('ttf');
+  }
+  body {
+    margin: 0;
+    padding: 0;
+    overflow-y: hidden; /* 세로축 스크롤을 숨김 */
+  }
+  a {
+    color: #000;
+    font-style: normal;
+    text-decoration: none;
+  }
+  .App {
+    display: flex;
+  }
+  .right {
+    height: 100vh;
+    width: 60vw;
+    background-color: #373737;
+    color: aliceblue;
+    font-family: 'Jeongnimsaji';
+    padding: 10px 0px 10px 30px;
+  }
+  .profile {
+    margin-top: 7vh;
+    display: flex;
+    align-content: center;  
+    font-family: 'MaruBuri';
+    border: 1px solid aliceblue;
+    width: 75%;
+    padding: 10px 0px;
+  }
+  .me {
+    margin-right: 60px;
+    margin-left: 10px;
+    height: 203px;
+    width: 150px;
+  }
+  .line {
+    margin-top: 7vh;
+    font-family: 'MaruBuri';
+    font-size: larger;
+  }
+  .left {
+    background-color: aliceblue;
+    height: 100vh;
+    width: 35vw;
+    padding: 10px 10px 10px 10px;
+    font-family: 'MaruBuri';
+  }
+  .index {
+    margin-left: 10px;
+    font-size: larger;
+    font-weight: 1000;
+  }
+  .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: larger;
+    height: 68vh;
+    font-weight: 500;
+  }
+  .link {
+    display: flex;
+    height: 25vh;
+    align-items: center; 
+    transition: 0.5s;
+    margin-left: 10px;
+  }
+  .link:hover {
+    background-color: #373737;
+    color: aliceblue;
+    margin-left: 0px;
+    padding-left: 10px;
+  }
+  .github {
+    display: flex;
+  }
+  .icon {
+    height: 45px;
+    margin-left: 10px;
+  }
+  .git {    
+    color: #000;
+    font-family: Jeongnimsaji;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 30px;
+    margin-top: 15px;
+    text-decoration: none;
+  }

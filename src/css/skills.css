@@ -1,0 +1,42 @@
+.right-scroll {
+  height: 100vh;
+  width: 60vw;
+  background-color: #373737;
+  color: aliceblue;
+  font-family: 'Jeongnimsaji';
+  padding: 10px 0px 10px 30px;
+  overflow-y: auto;
+}
+.level {
+  display: flex;
+  width: 40vw;
+  height: 11vh;
+  padding: 10px 30px;
+  align-items: center;
+}
+.level img {
+  height: 10vh;
+  width: 10vh;
+  object-fit: contain;
+}
+.level-a {
+  display: flex;
+  width: 40vw;
+  height: 11vh;
+  padding: 10px 30px;
+  align-items: center;
+}
+.level-a img {
+  height: 10vh;
+  width: 20vh;
+  object-fit: contain;
+  margin: 1vh;
+}
+.l1 {
+  width: 7vw;
+  text-align: center;
+}
+.back {
+  color: aliceblue;
+  font-family: 'MaruBuri';
+}

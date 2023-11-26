@@ -1,0 +1,21 @@
+.level-b {
+  display: flex;
+  width: 55vw;
+  height: 11vh;
+  padding: 10px 30px;
+  align-items: center;
+  justify-content: space-between;
+}
+.level-b p {
+  margin: 5vh;
+}
+.level-c {
+  display: flex;
+  width: 60vw;
+  height: 11vh;
+  padding: 10px 30px;
+  align-items: center;
+}
+.level-c p {
+  margin: 4vh;
+}
