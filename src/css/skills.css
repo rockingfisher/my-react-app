@@ -3,8 +3,8 @@
   width: 60vw;
   background-color: #373737;
   color: aliceblue;
-  font-family: 'Jeongnimsaji';
-  padding: 10px 0px 10px 30px;
+  font-family: "Jeongnimsaji";
+  padding: 10px 30px 10px 30px;
   overflow-y: auto;
 }
 .level {
@@ -38,5 +38,28 @@
 }
 .back {
   color: aliceblue;
-  font-family: 'MaruBuri';
+  font-family: "MaruBuri";
+}
+.s-link {
+  display: flex;
+  height: 50vh;
+  align-items: center;
+  transition: 0.5s;
+  margin-left: 10px;
+  background-color: #1a1a1a;
+  color: aliceblue;
+  margin-left: 0px;
+  padding-left: 20px;
+}
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #c7c7c7;
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-track {
+  display: none;
 }
