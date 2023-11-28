@@ -37,24 +37,21 @@ a {
   height: 90vh;
 }
 .profile {
-  margin-top: 7vh;
   display: flex;
   align-content: center;
   font-family: "MaruBuri";
   border: 1px solid aliceblue;
-  width: 75%;
-  padding: 10px 0px;
+  padding: 10px;
 }
 .me {
   margin-right: 60px;
-  margin-left: 10px;
-  height: 203px;
-  width: 150px;
+  height: 25vh;
 }
 .line {
-  margin-top: 7vh;
   font-family: "MaruBuri";
   font-size: larger;
+  display: flex;
+  justify-content: space-between;
 }
 .left {
   display: flex;
@@ -114,4 +111,43 @@ a {
   margin-top: 15px;
   text-decoration: none;
   margin-bottom: 5vh;
+}
+.mymy p {
+  font-size: 2vh;
+}
+.projectimg {
+  height: 40vh;
+  width: 40vw;
+  display: flex;
+}
+.title {
+  font-size: larger;
+  font-family: "MaruBuri";
+}
+.bingbing {
+  display: flex;
+  align-content: center;
+}
+.btn {
+  display: flex;
+  height: 40vh;
+  align-items: center;
+  padding: 0px 8vh 5vh 8vh;
+  font-size: xx-large;
+  color: aliceblue;
+  font-weight: 800;
+  cursor: pointer;
+}
+.show {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.projectimg:hover {
+  transform: scale(1.1);
+  transition: all 0.5s;
+}
+.wrapper {
+  overflow: hidden;
+  width: 40vw;
 }
