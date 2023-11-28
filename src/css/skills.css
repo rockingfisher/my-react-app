@@ -51,6 +51,12 @@
   margin-left: 0px;
   padding-left: 20px;
 }
+.center img {
+  margin: 1vw;
+}
+.center p {
+  text-align: center;
+}
 ::-webkit-scrollbar {
   width: 12px;
 }

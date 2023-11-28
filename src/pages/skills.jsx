@@ -157,29 +157,37 @@ function Skills() {
           <table>
             <tbody>
               <tr>
-                <td>
+                <td className="center">
                   <img src={gh} alt="python" />
+                  <p>깃허브</p>
                 </td>
-                <td>
+                <td className="center">
                   <img src={gl} alt="python" />
+                  <p>깃랩</p>
                 </td>
-                <td>
+                <td className="center">
                   <img src={st} alt="python" />
+                  <p>소스트리</p>
                 </td>
-                <td>
+                <td className="center">
                   <img src={gr} alt="python" />
+                  <p>게릿</p>
                 </td>
-                <td>
+                <td className="center">
                   <img src={mm} alt="python" />
+                  <p>메타모스트</p>
                 </td>
-                <td>
+                <td className="center">
                   <img src={jr} alt="python" />
+                  <p>지라</p>
                 </td>
-                <td>
+                <td className="center">
                   <img src={ns} alt="python" />
+                  <p>노션</p>
                 </td>
-                <td>
+                <td className="center">
                   <img src={fm} alt="python" />
+                  <p>피그마</p>
                 </td>
               </tr>
             </tbody>

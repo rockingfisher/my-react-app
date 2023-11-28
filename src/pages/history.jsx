@@ -105,7 +105,28 @@ function History() {
             </table>
           </div>
           <div>
-            <h2>교육 사항</h2>
+            <h2>경력 사항</h2>
+          </div>
+          <div>
+            <table>
+              <thead>
+                <tr>
+                  <th>근무기간</th>
+                  <th>근무처</th>
+                  <th>근무형태</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>2021.04~2021.12</td>
+                  <td>경상북도 경제 진흥원</td>
+                  <td>계약직</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div>
+            <h2>교육 수료</h2>
           </div>
           <div>
             <table>
@@ -126,6 +147,27 @@ function History() {
                   <td>2023.01~2023.12</td>
                   <td>삼성 청년 소프트웨어 아카데미</td>
                   <td>삼성 / 멀티캠퍼스</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div>
+            <h2>수상 내역</h2>
+          </div>
+          <div>
+            <table>
+              <thead>
+                <tr>
+                  <th>수상명</th>
+                  <th>수상일자</th>
+                  <th>주관기관</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>SSAFY 자율프로젝트 우수상</td>
+                  <td>2023.00.00.</td>
+                  <td>삼성 청년 소프트웨어 아카데미</td>
                 </tr>
               </tbody>
             </table>
