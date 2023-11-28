@@ -10,3 +10,9 @@
 ## 해야할 일
 - 디자인 수정(너무 구림)
 - ~~도메인(돈듦)~~
+
+## 배포를 위해 참고한 블로그
+- aws부터 node.js까지
+https://3d-yeju.tistory.com/63
+- pm2
+https://any-ting.tistory.com/74
