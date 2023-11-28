@@ -92,7 +92,7 @@ function Main() {
     // 자동으로 다음 슬라이드로 이동하는 타이머 설정
     const autoSlideTimer = setInterval(() => {
       nextSlide();
-    }, 3000); // 3초마다 다음 슬라이드로 이동
+    }, 5000); // 3초마다 다음 슬라이드로 이동
 
     // 컴포넌트가 언마운트되면 타이머 클리어
     return () => clearInterval(autoSlideTimer);
