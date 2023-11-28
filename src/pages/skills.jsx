@@ -92,6 +92,10 @@ function Skills() {
                 </td>
                 <td>중</td>
                 <td>
+                  SWEA 소프트웨어 역량 테스트 IM수준
+                  <br /> 문제해결능력
+                  <br />
+                  <br />
                   django를 이용한 서버 구축 및
                   <br /> 빅데이터 분석
                 </td>
@@ -130,9 +134,14 @@ function Skills() {
                 </td>
                 <td>중</td>
                 <td>
-                  웹소켓과 웹RTC를 이용한 실시간 통신
+                  웹소켓과 웹RTC를 이용한 실시간 통신 <br /> CSS 와 JS를 응용한
+                  UI 애니메이션
                   <br />
-                  CSS 와 JS를 응용한 UI 애니메이션
+                  <br />
+                  AWS EC2를 이용한 프론트 페이지 배포
+                  <br />
+                  <br />
+                  리덕스를 이용한 상태관리와 라우터를 <br /> 이용한 SPA구축
                 </td>
               </tr>
               <tr>
@@ -140,14 +149,28 @@ function Skills() {
                   <img src={rn} alt="javascript" />
                 </td>
                 <td>중하</td>
-                <td>라이브러리를 이용한 유저 토큰 관리</td>
+                <td>
+                  라이브러리를 이용한 유저 토큰 관리
+                  <br />
+                  <br />
+                  리덕스를 이용한 상태관리와 네비게이터를 <br /> 이용한 스크린
+                  전환
+                </td>
               </tr>
               <tr>
                 <td>
                   <img src={vu} alt="typescript" />
                 </td>
                 <td>중하</td>
-                <td>CSS프레임워크 사용, 반응형 웹 구현</td>
+                <td>
+                  공식문서에 기반한 프로젝트 초기설정
+                  <br />
+                  <br />
+                  부트스트랩 등 CSS프레임워크를 사용해 <br /> 반응형 웹 구현
+                  <br />
+                  <br />
+                  vue3 외 vue2 사용 경험도 있음
+                </td>
               </tr>
             </tbody>
           </table>

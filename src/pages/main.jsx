@@ -5,11 +5,12 @@ import profile from "../img/그림1.jpg";
 import github from "../img/image.png";
 import { motion } from "framer-motion";
 import p1 from "../img/p1.jpg";
-import mbcd from "../img/mbcd.PNG";
-import wv from "../img/wv.jpg";
-import lp1 from "../img/lp1.gif";
+import mbcd from "../img/g1.png";
+import wv from "../img/g2.png";
+import lp1 from "../img/g4.png";
+import pc1 from "../img/pc1.png";
 
-const images = [p1, mbcd, wv, lp1];
+const images = [p1, mbcd, wv, pc1, lp1];
 
 function Main() {
   const [currentIndex, setCurrentIndex] = useState(0);

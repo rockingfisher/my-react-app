@@ -11,6 +11,8 @@ import mbcd from "../img/mbcd.PNG";
 import mbcd2 from "../img/mbcd2.png";
 import wv from "../img/wv.jpg";
 import wv2 from "../img/wv2.jpg";
+import pc1 from "../img/pc1.png";
+import pc2 from "../img/pc2.png";
 import lp1 from "../img/lp1.gif";
 import lp2 from "../img/lp2.gif";
 import { motion } from "framer-motion";
@@ -118,6 +120,8 @@ function Projects() {
             <br />
             <div>
               <h3>SSAFY-특화 프로젝트(PC.GG-PC 및 주변기기 추천 웹사이트)</h3>
+              <img src={pc1} alt="pc1" className="ppt" />
+              <img src={pc2} alt="pc2" className="ppt" />
               <p>
                 크롤링을 통해 모은 데이터를 머신러닝으로 분석해서 사용자가
                 원하는 수준의 견적 추천
