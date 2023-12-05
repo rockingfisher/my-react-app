@@ -89,6 +89,23 @@ function Main() {
     );
   };
 
+  const gogithub = (index) => {
+    console.log(index);
+    let url = "empty";
+    if (index === 0) {
+      url = "https://github.com/rockingfisher/guri";
+    } else if (index === 1) {
+      url = "https://github.com/rockingfisher/SSAFY0";
+    } else if (index === 2) {
+      url = "https://github.com/rockingfisher/SSAFY1";
+    } else if (index === 3) {
+      url = "https://github.com/rockingfisher/SSAFY2";
+    } else if (index === 4) {
+      url = "https://github.com/rockingfisher/SSAFY3";
+    }
+    window.open(url, "_blank");
+  };
+
   useEffect(() => {
     // 자동으로 다음 슬라이드로 이동하는 타이머 설정
     const autoSlideTimer = setInterval(() => {
@@ -101,6 +118,56 @@ function Main() {
 
   return (
     <div className="App">
+      <div className="left">
+        <div className="index">
+          <h2>목차</h2>
+        </div>
+        <hr />
+        <div className="content">
+          <Link to="/skills" className="link">
+            <p>기술스택</p>
+          </Link>
+          <Link to="/projects" className="link">
+            <p>프로젝트</p>
+          </Link>
+          <Link to="/history" className="link">
+            <p>이력사항</p>
+          </Link>
+        </div>
+        <hr />
+        <div className="github">
+          <img
+            src={github}
+            alt="github"
+            className="icon"
+            style={{
+              backgroundColor: hover
+                ? `rgb(${Math.floor(currentColor.r)}, ${Math.floor(
+                    currentColor.g
+                  )}, ${Math.floor(currentColor.b)})`
+                : "inherit",
+              transition: "background-color 0.2s ease",
+            }}
+          />
+          <a
+            href="https://github.com/rockingfisher"
+            className="git"
+            id="git"
+            onMouseOver={handleMouseOver}
+            onMouseOut={handleMouseOut}
+            style={{
+              color: hover
+                ? `rgb(${Math.floor(currentColor.r)}, ${Math.floor(
+                    currentColor.g
+                  )}, ${Math.floor(currentColor.b)})`
+                : "inherit",
+              transition: "color 0.2s ease",
+            }}
+          >
+            https://github.com/rockingfisher
+          </a>
+        </div>
+      </div>
       <div className="right">
         <motion.div
           /* 2. 원하는 애니메이션으로 jsx를 감싸준다 */
@@ -151,6 +218,7 @@ function Main() {
                       src={image}
                       alt={`slide ${index}`}
                       className="projectimg"
+                      onClick={() => gogithub(index)}
                     />
                   ))}
                 </motion.div>
@@ -195,56 +263,6 @@ function Main() {
             </div>
           </div>
         </motion.div>
-      </div>
-      <div className="left">
-        <div className="index">
-          <h2>목차</h2>
-        </div>
-        <hr />
-        <div className="content">
-          <Link to="/skills" className="link">
-            기술스택
-          </Link>
-          <Link to="/projects" className="link">
-            프로젝트
-          </Link>
-          <Link to="/history" className="link">
-            이력사항
-          </Link>
-        </div>
-        <hr />
-        <div className="github">
-          <img
-            src={github}
-            alt="github"
-            className="icon"
-            style={{
-              backgroundColor: hover
-                ? `rgb(${Math.floor(currentColor.r)}, ${Math.floor(
-                    currentColor.g
-                  )}, ${Math.floor(currentColor.b)})`
-                : "inherit",
-              transition: "background-color 0.2s ease",
-            }}
-          />
-          <a
-            href="https://github.com/rockingfisher"
-            className="git"
-            id="git"
-            onMouseOver={handleMouseOver}
-            onMouseOut={handleMouseOut}
-            style={{
-              color: hover
-                ? `rgb(${Math.floor(currentColor.r)}, ${Math.floor(
-                    currentColor.g
-                  )}, ${Math.floor(currentColor.b)})`
-                : "inherit",
-              transition: "color 0.2s ease",
-            }}
-          >
-            https://github.com/rockingfisher
-          </a>
-        </div>
       </div>
     </div>
   );
