@@ -418,13 +418,8 @@ function Skills() {
                       </div>
                     </td>
                     <td>중</td>
-                    <td>
-                      SWEA 소프트웨어 역량 테스트 IM수준
-                      <br /> 문제해결능력
-                      <br />
-                      <br />
-                      django를 이용한 서버 구축 및
-                      <br /> 빅데이터 분석
+                    <td>빅데이터 분석 프로젝트에서 협업을 위한 버전관리 툴로 사용
+                    <br /><br /> 현재 프로젝트 아카이브로 활용중
                     </td>
                   </tr>
                   <tr>
@@ -436,7 +431,7 @@ function Skills() {
                     </td>
                     <td>중</td>
                     <td>
-                      반응형 웹과 SPA 구축, <br /> UI 애니메이션 구현
+                      SSAFY프로젝트의 버전관리 툴로 활용. jira나 gerrit등 다른 툴과 병용해서 사용함.
                     </td>
                   </tr>
                   <tr>
@@ -447,7 +442,7 @@ function Skills() {
                       </div>
                     </td>
                     <td>중하</td>
-                    <td>리액트 네이티브와 병용한 앱 구현</td>
+                    <td>시각적인 효과와 간단한 사용법으로 내가 사용하는 브랜치 뿐만아니라 다른 브랜치의 상황도 확인할 수 있음 </td>
                   </tr>
                   <tr>
                     <td>
@@ -457,7 +452,7 @@ function Skills() {
                       </div>
                     </td>
                     <td>중하</td>
-                    <td>리액트 네이티브와 병용한 앱 구현</td>
+                    <td>깃랩과 병용해 실험적으로 사용, <br /> 버전 충돌을 줄여주는 효과가 있었음</td>
                   </tr>
                 </tbody>
               </table>
@@ -478,32 +473,19 @@ function Skills() {
                   <tr>
                     <td>
                       <div>
-                        <img src={bi} alt="" />
-                        <span>power bi</span>
+                        <div className="sight">
+                          <img src={bi} alt="" />
+                          <img src={tb} alt="" />
+                        </div>
+                        <span>power bi & tableau</span>
                       </div>
                     </td>
                     <td>중</td>
                     <td>
-                      SWEA 소프트웨어 역량 테스트 IM수준
-                      <br /> 문제해결능력
-                      <br />
-                      <br />
-                      django를 이용한 서버 구축 및
-                      <br /> 빅데이터 분석
+                      분석한 빅데이터 자료를 기반으로 시각화된 보고서 작성 가능
                     </td>
                   </tr>
-                  <tr>
-                    <td>
-                      <div>
-                        <img src={tb} alt="" />
-                        <span>tableau</span>
-                      </div>
-                    </td>
-                    <td>중</td>
-                    <td>
-                      반응형 웹과 SPA 구축, <br /> UI 애니메이션 구현
-                    </td>
-                  </tr>
+                  
                 </tbody>
               </table>
             </div>

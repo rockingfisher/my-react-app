@@ -200,3 +200,12 @@ table img {
   padding: 2vh;
   border-radius: 1vh;
 }
+
+.sight {
+  display: flex;
+  flex-direction: initial
+}
+
+.sight img {
+  margin-right: 2vh;
+}
