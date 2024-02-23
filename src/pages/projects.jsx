@@ -98,6 +98,59 @@ function Skills() {
     }
   };
 
+  const [projectDetailValue, setProjetDetailValue] = useState(0);
+
+  const projectDetailOne = () => {
+    if (projectDetailValue === 1) {
+      setProjetDetailValue(0);
+      console.log('one to zero')
+    } else {
+      setProjetDetailValue(1);
+      console.log('num to one')
+    }
+  };
+  
+  const projectDetailTwo = () => {
+    if (projectDetailValue === 2) {
+      setProjetDetailValue(0);
+      console.log('two to zero')
+    } else {
+      setProjetDetailValue(2);
+      console.log('num to two')
+    }
+  };
+  
+  const projectDetailThr = () => {
+    if (projectDetailValue === 3) {
+      setProjetDetailValue(0);
+      console.log('three to zero')
+    } else {
+      setProjetDetailValue(3);
+      console.log('num to three')
+    }
+  };
+  
+  const projectDetailFou = () => {
+    if (projectDetailValue === 4) {
+      setProjetDetailValue(0);
+      console.log('four to zero')
+    } else {
+      setProjetDetailValue(4);
+      console.log('num to four')
+    }
+  };
+  
+  const projectDetailFiv = () => {
+    if (projectDetailValue === 5) {
+      setProjetDetailValue(0);
+      console.log('five to zero')
+    } else {
+      setProjetDetailValue(5);
+      console.log('num to five')
+    }
+  };
+  
+
   return (
     <div className="App">
       <div>
@@ -241,6 +294,10 @@ function Skills() {
                 주로 유저 관리와 토근 관리, TTS나 배경음악과 효과음 등을 담당함
               </p>
               <p>SSAFT 우수프로젝트 선정작</p>
+              <button onClick={projectDetailOne}>프로젝트 상세</button>
+              <div className={`${projectDetailValue === 1? 'projectDetail': 'hideDetail'}`}>
+                  프로젝트 상세정보 뭐적지?
+              </div>
             </div>
             <section id="2">
               <h2>PC.GG</h2>
@@ -256,6 +313,10 @@ function Skills() {
               <p>PC 견적뿐만 아니라 랩탑, 주변기기의 데이터도 검색가능</p>
               <p>vue3를 사용해 PC와 랩탑 추천, 주변기기 검색 화면 구현 담당</p>
               <p>디자인적 아쉬움이 남으나 다양한 버튼을 활용한 화면 구성</p>
+              <button onClick={projectDetailTwo}>프로젝트 상세</button>
+              <div className={`${projectDetailValue === 2? 'projectDetail': 'hideDetail'}`}>
+                  프로젝트 상세정보 뭐적지?
+              </div>
             </div>
             <section id="3">
               <h2>withview</h2>
@@ -273,6 +334,10 @@ function Skills() {
                 react를 사용해 화상 채팅 화면 구현과 화면공유 모드 구현을 담당
               </p>
               <p>화면공유 모드에서는 발화시에만 캠화면이 나오도록 구현 </p>
+              <button onClick={projectDetailThr}>프로젝트 상세</button>
+              <div className={`${projectDetailValue === 3? 'projectDetail': 'hideDetail'}`}>
+                  프로젝트 상세정보 뭐적지?
+              </div>
             </div>
             <section id="4">
               <h2>MBCD</h2>
@@ -284,6 +349,10 @@ function Skills() {
               <p>오픈 API를 통해 영화를 추천하는 웹서비스</p>
               <p>vue2와 python으로 로그인과 유저의 마이페이지를 주로 담당</p>
               <p>프론트엔드 뿐만 아니라 백엔드까지 구성했던 프로젝트</p>
+              <button onClick={projectDetailFou}>프로젝트 상세</button>
+              <div className={`${projectDetailValue === 4? 'projectDetail': 'hideDetail'}`}>
+                  프로젝트 상세정보 뭐적지?
+              </div>
             </div>
             <br />
             <div>
@@ -302,6 +371,10 @@ function Skills() {
                 단순 분석결과를 발표하는 프로젝트로 발표자료를 제외한 산출물
                 없음
               </p>
+              <button onClick={projectDetailFiv}>프로젝트 상세</button>
+              <div className={`${projectDetailValue === 5? 'projectDetail': 'hideDetail'}`}>
+                  프로젝트 상세정보 뭐적지?
+              </div>
             </div>
             <br />
           </motion.div>

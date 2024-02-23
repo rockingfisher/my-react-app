@@ -158,3 +158,8 @@ a {
   overflow: hidden;
   width: 40vw;
 }
+
+.hideDetail {
+  height: 0vh;
+  overflow: hidden;
+}
