@@ -11,6 +11,25 @@ import pc1 from "../img/pc1.png";
 import pc2 from "../img/pc2.png";
 import lp1 from "../img/lp1.gif";
 import lp2 from "../img/lp2.gif";
+import py from "../img/py.png";
+import sci from "../img/sci.png";
+import tb from "../img/tb.png";
+import ml1 from "../img/ml1.PNG";
+import ml2 from "../img/ml2.PNG";
+import ml3 from "../img/ml3.PNG";
+import ml4 from "../img/ml4.PNG";
+import java from "../img/java.png";
+import js from "../img/js.png";
+import ts from "../img/ts.png";
+import rn from "../img/rn.png";
+import spring from "../img/spring.png";
+import mysql from "../img/mysql.jpg";
+import vu from "../img/vu.png";
+import react from "../img/re.png";
+import rtc from "../img/webrtc.png";
+import dj from "../img/django.png";
+import sqllite from "../img/sqllite.png";
+import boot from "../img/boot.svg";
 import { motion } from "framer-motion";
 
 function Skills() {
@@ -278,7 +297,6 @@ function Skills() {
               <h2>꼬마화가</h2>
             </section>
             <div className="projects">
-              {" "}
               <h3>
                 SSAFY-자율 프로젝트(꼬마화가-유아용 그림그리기 어플리케이션)
               </h3>
@@ -289,14 +307,48 @@ function Skills() {
                 기능을 추가해 재미요소를 추가한 유아 소근육 발달 및 단어 학습
                 어플리케이션
               </p>
-              <p>react-native와 typescript를 사용한 프론트엔트 담당</p>
-              <p>
-                주로 유저 관리와 토근 관리, TTS나 배경음악과 효과음 등을 담당함
-              </p>
-              <p>SSAFT 우수프로젝트 선정작</p>
-              <button onClick={projectDetailOne}>프로젝트 상세</button>
+              <p>SSAFT 우수프로젝트 선정작으로 어린이집 시연시 좋은 반응을 받음.</p>
+              <button onClick={projectDetailOne} className="detailBtn" >프로젝트 상세</button>
               <div className={`${projectDetailValue === 1? 'projectDetail': 'hideDetail'}`}>
-                  프로젝트 상세정보 뭐적지?
+              <div className="detailcontaxt">
+                  <span>주요기술스택 : </span>
+                  <img src={java} alt="python" className="skillstack"/>
+                  <img src={js} alt="python" className="skillstack"/>
+                  <img src={ts} alt="python" className="skillstack"/>
+                  <img src={rn} alt="python" className="skillstack"/>
+                  <img src={spring} alt="python" className="skillstack"/>
+                  <img src={mysql} alt="python" className="skillstack"/>
+                </div>
+                <div className="detailcontaxt">
+                  <span>프로젝트 팀원 : 6명</span>
+                </div>
+                <div className="detailcontaxt">
+                  <span>프로젝트 기간 : 2023.10.09. ~ 2022.11.17.</span>
+                </div>
+                <div className="detailcontaxt">
+                  <span>맡은 업무 : 유저관련 스크린 프론트엔드 및 토큰관리, 이미지 선택 및 업로드구현, BGM및 TTS구현</span>
+                </div>
+                <div className="detailImgDiv">
+                  <img src={ml1} alt="" className="detailImg" />
+                  <img src={ml2} alt="" className="detailImg" />
+                </div>
+                <div className="detailcontaxt">
+                  <span>figma를 이용 목업을 제작하고, 목업을 바탕으로 화면 구성</span>
+                </div>
+                <div className="detailImgDiv">
+                  <img src={ml1} alt="" className="detailImg" />
+                  <img src={ml2} alt="" className="detailImg" />
+                </div>
+                <div className="detailcontaxt">
+                  <span>유저토큰은 키체인에 저장 및 관리, 토큰을 확인해서 로그인이 유지될 수 있도록 조치</span>
+                </div>
+                <div className="detailImgDiv">
+                  <img src={ml3} alt="" className="detailImg" />
+                  <img src={ml4} alt="" className="detailImg" />
+                </div>
+                <div className="detailcontaxt">
+                  <span>안드로이드 내 갤러리에서 사진을 가져올 수 있도록 하고 TTS를 통해 화면에 맞춰 동화를 읽을수 있도록 개발</span>
+                </div>
               </div>
             </div>
             <section id="2">
@@ -311,11 +363,43 @@ function Skills() {
                 원하는 수준의 견적 추천
               </p>
               <p>PC 견적뿐만 아니라 랩탑, 주변기기의 데이터도 검색가능</p>
-              <p>vue3를 사용해 PC와 랩탑 추천, 주변기기 검색 화면 구현 담당</p>
-              <p>디자인적 아쉬움이 남으나 다양한 버튼을 활용한 화면 구성</p>
-              <button onClick={projectDetailTwo}>프로젝트 상세</button>
+              <button onClick={projectDetailTwo} className="detailBtn" >프로젝트 상세</button>
               <div className={`${projectDetailValue === 2? 'projectDetail': 'hideDetail'}`}>
-                  프로젝트 상세정보 뭐적지?
+              <div className="detailcontaxt">
+                  <span>주요기술스택 : </span>
+                  <img src={vu} alt="python" className="skillstack"/>
+                  <img src={js} alt="python" className="skillstack"/>
+                  <img src={java} alt="scikit" className="skillstack"/>
+                  <img src={spring} alt="scikit" className="skillstack"/>
+                  <img src={mysql} alt="tableau" className="skillstack"/>
+                  <img src={py} alt="tableau" className="skillstack"/>
+                </div>
+                <div className="detailcontaxt">
+                  <span>프로젝트 팀원 : 7명</span>
+                </div>
+                <div className="detailcontaxt">
+                  <span>프로젝트 기간 : 2023.08.28. ~ 2022.10.06.</span>
+                </div>
+                <div className="detailcontaxt">
+                  <span>맡은 업무 : PC 및 랩탑 추천 페이지와 주변기기 검색화면 구현</span>
+                </div>
+                <div className="detailcontaxt">
+                  <span>크롤링한 빅데이터를 머신러닝을 통해 분류, 사용자가 입력한 조건에 가장 잘 부합하는 견적을 내는것이 목적인 프로젝트.</span>
+                </div>
+                <div className="detailImgDiv">
+                  <img src={ml1} alt="" className="detailImg" />
+                  <img src={ml2} alt="" className="detailImg" />
+                </div>
+                <div className="detailcontaxt">
+                  <span>사용자의 요구사항을 위해 다양한 종류의 컨트롤이 사용되고, 이를 저장해뒀다가 한번에 서버로 넘기는 방식 채용.</span>
+                </div>
+                <div className="detailImgDiv">
+                  <img src={ml3} alt="" className="detailImg" />
+                  <img src={ml4} alt="" className="detailImg" />
+                </div>
+                <div className="detailcontaxt">
+                  <span>추가적으로 부품 뿐만 아리라 컴퓨터 주변기기를 검색할 수 있도록 구성. 그 외 로그인 페이지의 초안 등을 추가로 담당.</span>
+                </div>
               </div>
             </div>
             <section id="3">
@@ -330,13 +414,46 @@ function Skills() {
                 웹서비스
               </p>
               <p>배경과 스티커를 사용해 다양한 보드게임을 할 수 있음</p>
-              <p>
-                react를 사용해 화상 채팅 화면 구현과 화면공유 모드 구현을 담당
-              </p>
-              <p>화면공유 모드에서는 발화시에만 캠화면이 나오도록 구현 </p>
-              <button onClick={projectDetailThr}>프로젝트 상세</button>
+              <button onClick={projectDetailThr} className="detailBtn" >프로젝트 상세</button>
               <div className={`${projectDetailValue === 3? 'projectDetail': 'hideDetail'}`}>
-                  프로젝트 상세정보 뭐적지?
+              <div className="detailcontaxt">
+                  <span>주요기술스택 : </span>
+                  <img src={js} alt="scikit" className="skillstack"/>
+                  <img src={react} alt="scikit" className="skillstack"/>
+                  <img src={java} alt="" className="skillstack"/>
+                  <img src={spring} alt="tableau" className="skillstack"/>
+                  <img src={rtc} alt="tableau" className="skillstack"/>
+                </div>
+                <div className="detailcontaxt">
+                  <span>프로젝트 팀원 : 6명</span>
+                </div>
+                <div className="detailcontaxt">
+                  <span>프로젝트 기간 : 2022.07.17. ~ 2022.08.25.</span>
+                </div>
+                <div className="detailcontaxt">
+                  <span>맡은 업무 : 화상채팅화면 구현, 화상채팅 내 텍스트 채팅 구현, 화면공유 구현</span>
+                </div>
+                <div className="detailImgDiv">
+                  <img src={ml1} alt="" className="detailImg" />
+                  <img src={ml2} alt="" className="detailImg" />
+                </div>
+                <div className="detailcontaxt">
+                  <span>웹RTC를 이용해서 화상채팅 구현. 이때 주요기능인 캠화면 이동 등 자유로운 레이아웃을 위해 기존 라이브러리는 사용하지 않음.</span>
+                </div>
+                <div className="detailImgDiv">
+                  <img src={ml1} alt="" className="detailImg" />
+                  <img src={ml2} alt="" className="detailImg" />
+                </div>
+                <div className="detailcontaxt">
+                  <span>화상채팅시 택스트 채팅도 가능하도록 하고 화면 내 서랍의 형식으로 배경이나 스티커등을 조정할 수 있도록 구현.</span>
+                </div>
+                <div className="detailImgDiv">
+                  <img src={ml3} alt="" className="detailImg" />
+                  <img src={ml4} alt="" className="detailImg" />
+                </div>
+                <div className="detailcontaxt">
+                  <span>화면을 공유할시 공유된 화면을 클릭해 전체화면으로 전환, 이때 발화자의 캠화면이 발화시에만 나타나도록 구현.</span>
+                </div>
               </div>
             </div>
             <section id="4">
@@ -347,11 +464,43 @@ function Skills() {
               <img src={mbcd} alt="mbcd" className="ppt" />
               <img src={mbcd2} alt="mbcd2" className="ppt" />
               <p>오픈 API를 통해 영화를 추천하는 웹서비스</p>
-              <p>vue2와 python으로 로그인과 유저의 마이페이지를 주로 담당</p>
               <p>프론트엔드 뿐만 아니라 백엔드까지 구성했던 프로젝트</p>
-              <button onClick={projectDetailFou}>프로젝트 상세</button>
+              <button onClick={projectDetailFou} className="detailBtn" >프로젝트 상세</button>
               <div className={`${projectDetailValue === 4? 'projectDetail': 'hideDetail'}`}>
-                  프로젝트 상세정보 뭐적지?
+              <div className="detailcontaxt">
+                  <span>주요기술스택 : </span>
+                  <img src={py} alt="python" className="skillstack"/>
+                  <img src={dj} alt="scikit" className="skillstack"/>
+                  <img src={vu} alt="scikit" className="skillstack"/>
+                  <img src={sqllite} alt="scikit" className="skillstack"/>
+                  <img src={boot} alt="tableau" className="skillstack"/>
+                </div>
+                <div className="detailcontaxt">
+                  <span>프로젝트 팀원 : 2명</span>
+                </div>
+                <div className="detailcontaxt">
+                  <span>프로젝트 기간 : 2022.05.17. ~ 2022.05.26.</span>
+                </div>
+                <div className="detailcontaxt">
+                  <span>맡은 업무 : 회원가입, 로그인, 마이페이지 등 유저관리 기능 및 화면구현</span>
+                </div>
+                <div className="detailcontaxt">
+                  <span>Django REST Framework & Vue API를 이용한 간단한 웹서비스 제작 프로젝트.</span>
+                </div>
+                <div className="detailImgDiv">
+                  <img src={ml1} alt="" className="detailImg" />
+                  <img src={ml2} alt="" className="detailImg" />
+                </div>
+                <div className="detailcontaxt">
+                  <span>django rest auth를 통해 로그인 기능을 구현하고, sqllite로 데이터를 관리.</span>
+                </div>
+                <div className="detailImgDiv">
+                  <img src={ml3} alt="" className="detailImg" />
+                  <img src={ml4} alt="" className="detailImg" />
+                </div>
+                <div className="detailcontaxt">
+                  <span>부트스트랩과 vue2를 이용해 프론트구성. vuex로 상태관리.</span>
+                </div>
               </div>
             </div>
             <br />
@@ -368,12 +517,42 @@ function Skills() {
               <img src={p15} alt="15" className="ppt" />
               <p>군집 분석을 이용한 서울시 아파트 매매가 변동추이 분석</p>
               <p>
-                단순 분석결과를 발표하는 프로젝트로 발표자료를 제외한 산출물
-                없음
+                분석결과를 발표하는 프로젝트로 머신러닝을 통해 아파트 가격 변동에 영향을 미치는 피쳐값을 찾아내는 것을 목표로 함
               </p>
-              <button onClick={projectDetailFiv}>프로젝트 상세</button>
+              <button onClick={projectDetailFiv} className="detailBtn" >프로젝트 상세</button>
               <div className={`${projectDetailValue === 5? 'projectDetail': 'hideDetail'}`}>
-                  프로젝트 상세정보 뭐적지?
+                <div className="detailcontaxt">
+                  <span>주요기술스택 : </span>
+                  <img src={py} alt="python" className="skillstack"/>
+                  <img src={sci} alt="scikit" className="skillstack"/>
+                  <img src={tb} alt="tableau" className="skillstack"/>
+                </div>
+                <div className="detailcontaxt">
+                  <span>프로젝트 팀원 : 4명</span>
+                </div>
+                <div className="detailcontaxt">
+                  <span>프로젝트 기간 : 2022.07. ~ 2022.09.</span>
+                </div>
+                <div className="detailcontaxt">
+                  <span>맡은 업무 : 데이터 수집/ 정제, 데이터 분석, 시각화</span>
+                </div>
+                <div className="detailcontaxt">
+                  <span>공공데이터포털 외 여러 곳에서 수집한 약 2만개의 데이터를 전처리하는데 무게가 실린 프로젝트.</span>
+                </div>
+                <div className="detailImgDiv">
+                  <img src={ml1} alt="" className="detailImg" />
+                  <img src={ml2} alt="" className="detailImg" />
+                </div>
+                <div className="detailcontaxt">
+                  <span>데이터 전처리를 위해 pandas라이브러리가 사용되었으며, 역세권 등을 판별하기 위해 geopy라이브러리로 위경도값 산출.</span>
+                </div>
+                <div className="detailImgDiv">
+                  <img src={ml3} alt="" className="detailImg" />
+                  <img src={ml4} alt="" className="detailImg" />
+                </div>
+                <div className="detailcontaxt">
+                  <span>회귀분석을 통해 유의미한 피쳐값을 찾고 군집분석을 통해 실제 변동이 일어난 군집을 확인, 시각화하는것으로 마무리.</span>
+                </div>
               </div>
             </div>
             <br />
