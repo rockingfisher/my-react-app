@@ -204,3 +204,22 @@ a {
   height: 80vh;
   width: 45%;
 }
+
+.detailImgDivV {
+  margin: 1vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.detailImgV {
+  margin-top: 1vh;
+  width: 90%;
+}
+
+.tempdiv1 {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}

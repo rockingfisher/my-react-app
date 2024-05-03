@@ -30,6 +30,26 @@ import rtc from "../img/webrtc.png";
 import dj from "../img/django.png";
 import sqllite from "../img/sqllite.png";
 import boot from "../img/boot.svg";
+import movie1 from "../img/django-suth.png";
+import movie2 from "../img/database.png";
+import movie3 from "../img/lgincode.png";
+import movie5 from "../img/vuex.png";
+import view1 from "../img/rtccode1.PNG";
+import view2 from "../img/rtccode2.PNG";
+import view3 from "../img/chat.PNG";
+import view4 from "../img/maingimic.PNG";
+import view5 from "../img/speak.PNG";
+import view6 from "../img/screenshare.PNG";
+import pcre1 from "../img/estimate.PNG";
+import pcre2 from "../img/control.PNG";
+import pcre3 from "../img/loginchoan.PNG";
+import pcre4 from "../img/peri.PNG";
+import baby1 from "../img/mockup.PNG";
+import baby2 from "../img/keychain.PNG";
+import baby3 from "../img/logout.PNG";
+import baby4 from "../img/loadtk.PNG";
+import baby5 from "../img/imagepicker.PNG";
+import baby6 from "../img/tts.PNG";
 import { motion } from "framer-motion";
 
 function Skills() {
@@ -329,22 +349,24 @@ function Skills() {
                   <span>맡은 업무 : 유저관련 스크린 프론트엔드 및 토큰관리, 이미지 선택 및 업로드구현, BGM및 TTS구현</span>
                 </div>
                 <div className="detailImgDiv">
-                  <img src={ml1} alt="" className="detailImg" />
-                  <img src={ml2} alt="" className="detailImg" />
+                  <img src={baby1} alt="" className="" />
                 </div>
                 <div className="detailcontaxt">
                   <span>figma를 이용 목업을 제작하고, 목업을 바탕으로 화면 구성</span>
                 </div>
                 <div className="detailImgDiv">
-                  <img src={ml1} alt="" className="detailImg" />
-                  <img src={ml2} alt="" className="detailImg" />
+                  <img src={baby2} alt="" className="detailImg" />
+                  <div className="tempdiv1">
+                    <img src={baby4} alt="" className="" />
+                    <img src={baby3} alt="" className="" />
+                  </div>
                 </div>
                 <div className="detailcontaxt">
-                  <span>유저토큰은 키체인에 저장 및 관리, 토큰을 확인해서 로그인이 유지될 수 있도록 조치</span>
+                  <span>유저토큰은 키체인에 저장 및 관리하고, 로그아웃시 키체인에서 토큰이 리셋되도록 구현.</span>
                 </div>
                 <div className="detailImgDiv">
-                  <img src={ml3} alt="" className="detailImg" />
-                  <img src={ml4} alt="" className="detailImg" />
+                  <img src={baby5} alt="" className="detailImg" />
+                  <img src={baby6} alt="" className="detailImg" />
                 </div>
                 <div className="detailcontaxt">
                   <span>안드로이드 내 갤러리에서 사진을 가져올 수 있도록 하고 TTS를 통해 화면에 맞춰 동화를 읽을수 있도록 개발</span>
@@ -387,15 +409,15 @@ function Skills() {
                   <span>크롤링한 빅데이터를 머신러닝을 통해 분류, 사용자가 입력한 조건에 가장 잘 부합하는 견적을 내는것이 목적인 프로젝트.</span>
                 </div>
                 <div className="detailImgDiv">
-                  <img src={ml1} alt="" className="detailImg" />
-                  <img src={ml2} alt="" className="detailImg" />
+                  <img src={pcre1} alt="" className="detailImg" />
+                  <img src={pcre2} alt="" className="detailImg" />
                 </div>
                 <div className="detailcontaxt">
                   <span>사용자의 요구사항을 위해 다양한 종류의 컨트롤이 사용되고, 이를 저장해뒀다가 한번에 서버로 넘기는 방식 채용.</span>
                 </div>
                 <div className="detailImgDiv">
-                  <img src={ml3} alt="" className="detailImg" />
-                  <img src={ml4} alt="" className="detailImg" />
+                  <img src={pcre4} alt="" className="detailImg" />
+                  <img src={pcre3} alt="" className="detailImg" />
                 </div>
                 <div className="detailcontaxt">
                   <span>추가적으로 부품 뿐만 아리라 컴퓨터 주변기기를 검색할 수 있도록 구성. 그 외 로그인 페이지의 초안 등을 추가로 담당.</span>
@@ -434,25 +456,25 @@ function Skills() {
                   <span>맡은 업무 : 화상채팅화면 구현, 화상채팅 내 텍스트 채팅 구현, 화면공유 구현</span>
                 </div>
                 <div className="detailImgDiv">
-                  <img src={ml1} alt="" className="detailImg" />
-                  <img src={ml2} alt="" className="detailImg" />
+                  <img src={view1} alt="" className="detailImg" />
+                  <img src={view2} alt="" className="detailImg" />
                 </div>
                 <div className="detailcontaxt">
                   <span>웹RTC를 이용해서 화상채팅 구현. 이때 주요기능인 캠화면 이동 등 자유로운 레이아웃을 위해 기존 라이브러리는 사용하지 않음.</span>
                 </div>
                 <div className="detailImgDiv">
-                  <img src={ml1} alt="" className="detailImg" />
-                  <img src={ml2} alt="" className="detailImg" />
+                  <img src={view3} alt="" className="detailImg" />
+                  <img src={view4} alt="" className="detailImg" />
                 </div>
                 <div className="detailcontaxt">
-                  <span>화상채팅시 택스트 채팅도 가능하도록 하고 화면 내 서랍의 형식으로 배경이나 스티커등을 조정할 수 있도록 구현.</span>
+                  <span>화상채팅시 택스트 채팅도 가능하도록 하고 내 화면에서 변동된 사항을 다른 사용자에게도 피드백 하도록 구현.</span>
                 </div>
                 <div className="detailImgDiv">
-                  <img src={ml3} alt="" className="detailImg" />
-                  <img src={ml4} alt="" className="detailImg" />
+                  <img src={view6} alt="" className="detailImg" />
+                  <img src={view5} alt="" className="detailImg" />
                 </div>
                 <div className="detailcontaxt">
-                  <span>화면을 공유할시 공유된 화면을 클릭해 전체화면으로 전환, 이때 발화자의 캠화면이 발화시에만 나타나도록 구현.</span>
+                  <span>캠화상 외 현재 보고있는 화면을 공유할 수 있도록 하고, 공유화면이 전체화면일 경우 발화자의 캠화면이 발화시에만 나타나도록 구현.</span>
                 </div>
               </div>
             </div>
@@ -487,16 +509,16 @@ function Skills() {
                 <div className="detailcontaxt">
                   <span>Django REST Framework & Vue API를 이용한 간단한 웹서비스 제작 프로젝트.</span>
                 </div>
-                <div className="detailImgDiv">
-                  <img src={ml1} alt="" className="detailImg" />
-                  <img src={ml2} alt="" className="detailImg" />
+                <div className="detailImgDivV">
+                  <img src={movie1} alt="" className="detailImgV" />
+                  <img src={movie2} alt="" className="detailImgV" />
                 </div>
                 <div className="detailcontaxt">
                   <span>django rest auth를 통해 로그인 기능을 구현하고, sqllite로 데이터를 관리.</span>
                 </div>
                 <div className="detailImgDiv">
-                  <img src={ml3} alt="" className="detailImg" />
-                  <img src={ml4} alt="" className="detailImg" />
+                  <img src={movie3} alt="" className="detailImg" />
+                  <img src={movie5} alt="" className="detailImg" />
                 </div>
                 <div className="detailcontaxt">
                   <span>부트스트랩과 vue2를 이용해 프론트구성. vuex로 상태관리.</span>
