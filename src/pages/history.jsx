@@ -311,7 +311,7 @@ function Skills() {
                 <tbody>
                   <tr>
                     <td>SSAFY 자율프로젝트 우수상</td>
-                    <td>2023.00.00.</td>
+                    <td>2023.11.24.</td>
                     <td>삼성 청년 소프트웨어 아카데미</td>
                   </tr>
                 </tbody>
